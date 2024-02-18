@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo</title>
+
+    <style>
+        body{
+            background-color: gray;
+        }
+        /*Conteudo centralizado*/
+        .main{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            background: burlywood;
+            margin: auto;
+            text-align: center;
+            max-width: 800px;
+            min-width: 300px;
+        }
+        main img.meio{
+            margin: auto;
+            display: block;
+        }
+        #img{
+            width: 100%;
+        }
+        /* CONFIGURACAO IMPORTANTE PARA VIDEOS*/
+        main div.video{
+            background-color: rgb(84, 153, 70);
+            padding: 20px;
+            margin: 0px -20px;
+            position: relative;
+            padding-bottom: 50%;
+        }
+        div.video > iframe{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }   
+    </style>
+</head>
+<body>
+    <header class="main">
+        <nav class="menu">
+            <a href="">Home</a>
+            <a href="">Contact us</a>
+            <a href="">About</a>
+            <a href="">Politicas de privacidade</a>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>Pagina Responsiva</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vero at aut eaque. Ullam voluptates dicta voluptate quidem alias incidunt voluptatum minima nulla, ea magnam! Soluta ratione sapiente obcaecati nam non neque id rem magnam odio, itaque vel, nulla est autem saepe omnis unde at esse deserunt praesentium harum modi! Modi sapiente sint nam architecto illum veritatis beatae commodi neque praesentium dolores! Autem, repudiandae! Totam quam, quos magni earum unde voluptatem incidunt dicta repudiandae culpa sapiente adipisci fugiat nam beatae. Corrupti aspernatur porro odio!</p>
+        <img class="meio" src="img/m.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vero at aut eaque. Ullam voluptates dicta voluptate quidem alias incidunt voluptatum minima nulla, ea magnam! Soluta ratione sapiente obcaecati nam non neque id rem magnam odio, itaque vel, nulla est autem saepe omnis unde at tenetur alias? Voluptates maxime accusamus aliquid labore, explicabo minus. Unde nihil doloremque labore sint facilis dolor vel recusandae necessitatibus natus temporibus soluta a quam perferendis quo minus, nostrum quaerat iure nisi qui? Fugiat labore ad id natus, minus provident, consequuntur deleniti voluptatem, ea ut impedit tenetur harum iusto beatae? Labore eius quia ullam cum nam, tempore ipsum a ex nisi, id accusamus in eligendi praesentium natus aliquid corporis dolor nemo iusto, beatae libero vitae cumque. Corporis eaque velit repellendus quis tenetur alias assumenda architecto fugiat error distinctio magnam perspiciatis quos eveniet maxime consequatur, vel labore saepe temporibus fugit adipisci magni! Ad dignissimos officia nostrum dolores delectus? Cupiditate ipsam omnis, culpa sint quidem quos perspiciatis modi porro nihil soluta, nostrum reiciendis qui aliquam iure m</p>
+        <picture>
+            <source media="(min-width:400px )" srcset="img/g.jpg">
+            <img id="img" src="img/p.jpg" alt="">
+        </picture>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem voluptatem laboriosam minima tenetur natus ab modi numquam quo ipsum, velit nihil atque magni consequuntur? Dolorem earum architecto aperiam rerum eos, possimus exercitationem nobis enim, a hic aspernatur deserunt fugiat soluta dolorum, fuga voluptate tempore ipsum velit voluptates repellat provident animi reprehenderit quis? Obcaecati voluptas earum accusantium assumenda hic ea, libero aliquid tempore sequi magni distinctio perspiciatis minima commodi? Illum officiis, repellendus qui consequuntur repellat dolorem sed eveniet provident illo. Sed quibusdam magni, non optio assumenda blanditiis magnam nobis earum ipsam consectetur libero modi saepe accusamus in reiciendis. Repellendus, et animi reiciendis dolorem in sapiente labore vitae voluptate, debitis expedita porro voluptas blanditiis cupiditate, quos veniam assumenda mollitia facere molestias quam accusamus sit eius ratione voluptates. Neque culpa consectetur, facilis laboriosam deleniti maxime nesciunt sunt provident expedita quas sit, magnam vitae dicta unde officiis laborum voluptatibus omnis, nostrum temporibus deserunt a?</p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rAdHLNBTCgs?si=jOES_Be5HUNqdaDm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        
+    </main>
+</body>
+</html>
