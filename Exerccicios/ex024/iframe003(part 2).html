@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        iframe#tela{
+            width: 95%;
+            height: 450px;
+            border: solid 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faca uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis numquam quisquam a incidunt facilis ex beatae! Ratione, maxime voluptatibus. Quas tenetur vero enim nisi in deserunt, quibusdam fugiat eos adipisci impedit, at quae itaque pariatur similique perspiciatis alias amet magni vitae nulla. Quaerat nihil odit totam amet aperiam dolorem, reprehenderit nostrum, cum ex cumque illo corporis perspiciatis laudantium consequatur nam molestias quos dolore officiis quo! Dolorem adipisci cum aspernatur eveniet, laborum alias minus fugiat. Eos autem vel ut quibusdam dignissimos unde repellat laboriosam porro, explicabo ipsum maiores. Nihil, at perspiciatis nobis illum magni adipisci ipsa! Laborum inventore optio distinctio minus!</p>
+    <nav>
+        <ul>
+            <li><a href="paginas extras/pague001.html" target="frame">Primeira pagina</a></li>
+            <li><a href="paginas extras/pague002.html" target="frame">Segunda pagina </a></li>
+            <li><a href="paginas extras/page003.html" target="frame">Terceira pagina</a></li>
+        </ul>
+    </nav>
+    <h1>Faca uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis numquam quisquam a incidunt facilis ex beatae! Ratione, maxime voluptatibus. Quas tenetur vero enim nisi in deserunt, quibusdam fugiat eos adipisci impedit, at quae itaque pariatur similique perspiciatis alias amet magni vitae nulla. Quaerat nihil odit totam amet aperiam dolorem, reprehenderit nostrum, cum ex cumque illo corporis perspiciatis laudantium consequatur nam molestias quos dolore officiis quo! Dolorem adipisci cum aspernatur eveniet, laborum alias minus fugiat. Eos autem vel ut quibusdam dignissimos unde repellat laboriosam porro, explicabo ipsum maiores. Nihil, at perspiciatis nobis illum magni adipisci ipsa! Laborum inventore optio distinctio minus!</p>
+    <iframe src="paginas extras/pague001.html" id="tela"  name="frame"><p>Infelizmente o seu navegador nao e compativel</p> </iframe>
+    <iframe srcdoc="<h1> Escolha uma da opcoes acima </h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic libero ut ad laborum amet laudantium placeat corrupti repellendus sint quod dolores veritatis iusto expedita, cumque consequatur pariatur facere non! Et quas fugiat, beatae vero doloremque impedit cupiditate doloribus veniam facilis commodi id similique cumque quisquam suscipit inventore sapiente. Culpa, voluptates.</p> <img src='setas-de-expansao-finas.png'></img>"  id="tela"  name="frame"><p>Infelizmente o seu navegador nao e compativel</p> </iframe>
+    
+</body>
+</html>
