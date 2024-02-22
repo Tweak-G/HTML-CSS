@@ -1,0 +1,19 @@
+/* Estilos para impressora*/
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  1.em;
+    line-height: 1.em;
+}
+menu{
+    display: none;
+}
+article::after{
+    content: 'Este artigo foi impresso atraves do site criado por Alex Junior';
+}
+article{
+    width: 100%;
+}
